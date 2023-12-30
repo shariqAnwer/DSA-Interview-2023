@@ -1,4 +1,4 @@
-//brute force
+//brute force   TC = O(n), SC = O(n)
 function zeroToTheEndBF(arr) {
     let nonZero = []
     let Zeros = []
@@ -6,7 +6,7 @@ function zeroToTheEndBF(arr) {
     return nonZero.concat(Zeros)
 }
 
-//optimized
+//optimized TC = O(n), SC = O(1)
 function zeroToTheEnd(arr) {
     let c = 0
     for(let i = 0; i < arr.length; i++) {
